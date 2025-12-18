@@ -1,0 +1,30 @@
+﻿<Window x:Class="WPFKus.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFKus"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Canvas x:Name="oyunEkrani" Background="LightCyan" Focusable="True" >
+        <Ellipse x:Name="flappyKus" Width="40" Height="40" Fill="Orange" Canvas.Left="100" Canvas.Top="100" Stroke="Black" StrokeThickness="3" RenderTransformOrigin="0.5,0.5">
+            <Ellipse.RenderTransform>
+                <RotateTransform x:Name="kusRotasyon"/>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <Rectangle x:Name="boru" Fill="Green" Height="150" Width="50" Canvas.Left="800" Canvas.Top="250" Stroke="Black" StrokeThickness="3" />
+        <TextBlock Text="Puan :0" x:Name="txtPuan" FontWeight="SemiBold" FontFamily="Arial" FontSize="14" Panel.ZIndex="1" />
+        <TextBlock x:Name="txtRekor" Text="Rekor :0" Canvas.Right="10" FontSize="14" FontWeight="SemiBold" FontFamily="Arial" Panel.ZIndex="1" />
+        <Border x:Name="gameOverPanel" Width="300" Height="200" Background="LightGray" BorderBrush="Black" BorderThickness="2"  Panel.ZIndex="10" Canvas.Left="250" Canvas.Top="120"  Visibility="Hidden">
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" >
+                <TextBlock Text="Oyun Bitti!" FontSize="30" FontWeight="SemiBold" Foreground="IndianRed" HorizontalAlignment="Center" Margin="0,0,0,10" />
+                <TextBlock x:Name="txtSonPuan" Text="Puan :0" FontSize="20" FontWeight="SemiBold" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Button x:Name="btnTekrar" Content="Tekrar Oyna" Width="120" Height="30" Background="LightGreen" FontWeight="Bold" FontSize="14" Click="btnTekrar_Click" Margin="5"/>
+                    <Button x:Name="btnCıkıs" Content="Çıkış" Width="80" Height="30"  Background="LightSalmon" FontSize="14" FontWeight="Bold" Click="btnCıkıs_Click"  Margin="5"/>
+                </StackPanel>
+                <TextBlock x:Name="yeniRekor" Text="" FontSize="20" HorizontalAlignment="Center"  FontFamily="Arial" FontWeight="SemiBold"/>
+            </StackPanel>
+        </Border>
+    </Canvas>
+</Window>

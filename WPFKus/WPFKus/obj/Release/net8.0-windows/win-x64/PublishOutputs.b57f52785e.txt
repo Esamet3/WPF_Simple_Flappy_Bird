@@ -1,0 +1,7 @@
+C:\Users\SAMET\Desktop\MY PROJECT\C# myProject\WPFKus.pdb
+C:\Users\SAMET\Desktop\MY PROJECT\C# myProject\D3DCompiler_47_cor3.dll
+C:\Users\SAMET\Desktop\MY PROJECT\C# myProject\PenImc_cor3.dll
+C:\Users\SAMET\Desktop\MY PROJECT\C# myProject\PresentationNative_cor3.dll
+C:\Users\SAMET\Desktop\MY PROJECT\C# myProject\vcruntime140_cor3.dll
+C:\Users\SAMET\Desktop\MY PROJECT\C# myProject\wpfgfx_cor3.dll
+C:\Users\SAMET\Desktop\MY PROJECT\C# myProject\WPFKus.exe

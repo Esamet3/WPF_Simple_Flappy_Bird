@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SAMET\\Desktop\\MY PROJECT\\C# myProject\\WPFKus\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9AFB78-1EDB-4033-A453-95E0F54416C5}|WPFKus\\WPFKus.csproj|c:\\users\\samet\\desktop\\my project\\c# myproject\\wpfkus\\wpfkus\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4B9AFB78-1EDB-4033-A453-95E0F54416C5}|WPFKus\\WPFKus.csproj|solutionrelative:wpfkus\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9AFB78-1EDB-4033-A453-95E0F54416C5}|WPFKus\\WPFKus.csproj|c:\\users\\samet\\desktop\\my project\\c# myproject\\wpfkus\\wpfkus\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B9AFB78-1EDB-4033-A453-95E0F54416C5}|WPFKus\\WPFKus.csproj|solutionrelative:wpfkus\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\SAMET\\Desktop\\MY PROJECT\\C# myProject\\WPFKus\\WPFKus\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WPFKus\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\SAMET\\Desktop\\MY PROJECT\\C# myProject\\WPFKus\\WPFKus\\MainWindow.xaml",
+              "RelativeToolTip": "WPFKus\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-05T17:34:47.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\SAMET\\Desktop\\MY PROJECT\\C# myProject\\WPFKus\\WPFKus\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WPFKus\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\SAMET\\Desktop\\MY PROJECT\\C# myProject\\WPFKus\\WPFKus\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WPFKus\\MainWindow.xaml.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwA8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T17:34:45.452Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
